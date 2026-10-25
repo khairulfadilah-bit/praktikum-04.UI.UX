@@ -1,0 +1,103 @@
+body {
+    background-color: #ffffee;
+}
+
+#header {
+    background-color: #d5ba33;
+    text-align: center;
+    padding: 8px 100px;
+}
+
+#header h1 {
+    font-weight: bold;
+    font-size: xx-large;
+    color: blue;
+}
+
+#header blockquote {
+    background-color: #f3d619;
+    border: 2px dotted black;
+    font-weight: bold;
+    font-size: large;
+    padding: 8px 15px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: large;
+    list-style: none;
+}
+
+li a {
+    color: rgb(67, 66, 66);
+}
+
+.gambar {
+    text-align: center;
+    gap: 10px;
+}
+
+.isi {
+    font-size: large;
+
+    & p:first-child:first-letter {
+        color: blue;
+        font-size: xx-large;
+    }
+}
+
+#profil {
+
+    h3 {
+        text-align: center;
+    }
+
+    li {
+        border: 2px solid black;
+        border-radius: 8px;
+        background-color: #f0efb9;
+        gap: 10px;
+        padding: 15px;
+    }
+}
+
+.koleksi {
+    display: flex;
+    background-color: #f0efb9;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    gap: 15px;
+
+    & img{
+        border: 2px solid black;
+        border-radius: 8px;
+        width: 24%;
+    }
+}
+.promo {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+
+    & ol {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        list-style: none;
+    }
+    del {
+        color: red;
+    }
+
+    strong {
+        color: red;
+    }
+
+    span {
+        color: red;
+    }
+}
